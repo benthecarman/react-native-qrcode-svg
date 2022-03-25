@@ -139,7 +139,7 @@ const QRCode = ({
       <G>
         <Path
           d={path}
-          strokeLinecap='butt'
+          strokeLinecap='round'
           stroke={enableLinearGradient ? 'url(#grad)' : color}
           strokeWidth={cellSize}
         />
